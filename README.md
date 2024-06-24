@@ -28,7 +28,7 @@ To analyze the frequency content, the Power Spectral Density (PSD) of the signal
 
 Bandpower is calculated by integrating the PSD over the frequency range of each band. The Welch method is used to estimate the PSD, and the power within each band is computed using numerical integration.
 
-Code used can be found as main.py in this repository
+Code used can be found as eeg.py in this repository
 
 
 The bandpower function integrates the PSD over specified frequency bands, giving a quantitative measure of power within each band. This method allows for an objective comparison of muscle activity across different frequency ranges, aiding in the diagnosis and monitoring of muscular and neurological conditions.
