@@ -33,7 +33,7 @@ The Hilbert-Huang Transform (HHT) is a non-linear and non-stationary signal proc
 <h3>c.Power Computation:</h3> The power in each frequency band is computed using the Hilbert spectrum, which represents the energy distribution in the time-frequency plane.<br>
 
 <h2>Computation of Power Spectral Density</h2>
-PSD = F{x(t)}^2/T <br>
+PSD = F{x(t)}<sup>2</sup>/T <br>
 where F is the Fourier Transform of signal x(t) and T is the total duration<br>
 __Welch’s Method:__ A common method for estimating the PSD is Welch’s method, which involves dividing the signal into overlapping segments, applying a window function to each segment, computing the periodogram, and averaging the periodograms.
 <h2>Applications</h2>
@@ -41,7 +41,7 @@ Clinical Diagnosis: Bandpower analysis is used to detect abnormalities such as e
 Cognitive Research: Analysis of EEG bandpowers provides insights into cognitive processes such as attention, memory, and learning.
 Brain-Computer Interfaces (BCIs): Bandpower features are employed in BCIs for controlling external devices through neural signals.
 <h2>Code</h2>
-can be found [here](https://github.com/KedarAthrey/mini-projects/blob/eegdata/main.py).
+can be found [here] (https://github.com/KedarAthrey/mini-projects/blob/eegdata/main.py).
 <h2>Sources</h2>
 Niedermeyer, E., & da Silva, F. L. (2004). Electroencephalography: Basic Principles, Clinical Applications, and Related Fields. Lippincott Williams & Wilkins.<br>
 Oken, B. S., & Chiappa, K. H. (1986). Short-term variability in EEG frequency analysis. Electroencephalography and Clinical Neurophysiology, 63(4), 353-367.<br>
