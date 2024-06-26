@@ -17,7 +17,7 @@ Gamma (30-100 Hz): Associated with high-level cognitive functions, including per
 The Fourier Transform (FT) is a mathematical technique that converts a time-domain signal into its constituent frequencies. In EEG analysis, the Discrete Fourier Transform (DFT) or its efficient computation, the Fast Fourier Transform (FFT), is commonly used to obtain the power spectral density (PSD) of the signal.
 
 <h3>a.Preprocessing</h3> EEG data is often preprocessed to remove artifacts such as eye blinks and muscle movements. Common preprocessing steps include filtering, segmentation, and artifact rejection.<br>
-<h3>b.Windowing</h3>: EEG data is typically divided into overlapping segments or windows to enhance the frequency resolution and reduce spectral leakage.<br>
+<h3>b.Windowing</h3> EEG data is typically divided into overlapping segments or windows to enhance the frequency resolution and reduce spectral leakage.<br>
 <h3>c.FFT Computation</h3> The FFT is applied to each windowed segment to compute the PSD. The PSD is then averaged over all segments to obtain the overall PSD.<br>
 The power in each frequency band is calculated by integrating the PSD within the band’s frequency range.
 
@@ -32,7 +32,7 @@ The Hilbert-Huang Transform (HHT) is a non-linear and non-stationary signal proc
 
 <h3>a.EMD Decomposition</h3> The EEG signal is decomposed into a set of Intrinsic Mode Functions (IMFs) using EMD. Each IMF represents a specific oscillatory mode.<br>
 <h3>b.Hilbert Transform</h3>The Hilbert Transform is applied to each IMF to obtain the instantaneous frequency and amplitude.<br>
-<h3>c.Power Computation:</h3> The power in each frequency band is computed using the Hilbert spectrum, representing the energy distribution in the time-frequency plane.<br>
+<h3>c.Power Computation</h3> The power in each frequency band is computed using the Hilbert spectrum, representing the energy distribution in the time-frequency plane.<br>
 
 <h2>Computation of Power Spectral Density</h2>
 PSD = F{x(t)}<sup>2</sup>/T <br>
