@@ -41,7 +41,7 @@ Clinical Diagnosis: Bandpower analysis is used to detect abnormalities such as e
 Cognitive Research: Analysis of EEG bandpowers provides insights into cognitive processes such as attention, memory, and learning.
 Brain-Computer Interfaces (BCIs): Bandpower features are employed in BCIs for controlling external devices through neural signals.
 <h2>Code</h2>
-can be found [here](URL= https://github.com/KedarAthrey/mini-projects/blob/eegdata/main.py)
+can be found [here](url https://github.com/KedarAthrey/mini-projects/blob/eegdata/main.py)
 <h2>Sources</h2>
 Niedermeyer, E., & da Silva, F. L. (2004). Electroencephalography: Basic Principles, Clinical Applications, and Related Fields. Lippincott Williams & Wilkins.<br>
 Oken, B. S., & Chiappa, K. H. (1986). Short-term variability in EEG frequency analysis. Electroencephalography and Clinical Neurophysiology, 63(4), 353-367.<br>
