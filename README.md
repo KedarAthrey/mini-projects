@@ -1,4 +1,6 @@
-Electroencephalography (EEG) measures electrical activity in the brain using electrodes placed on the scalp. EEG signals provide insights into brain function and are used in various applications, including clinical diagnosis, neuroscience research, and brain-computer interfacing. A critical aspect of EEG analysis is the extraction of different bandpowers from EEG data and the computation of spectral density. This article explores the methodologies for extracting bandpowers from EEG data and computing spectral density, highlighting their importance and applications.
+Electroencephalography (EEG) measures electrical activity in the brain using electrodes placed on the scalp. EEG signals provide insights into brain function and are used in various applications, including clinical diagnosis, neuroscience research, and brain-computer interfacing. A critical aspect of EEG analysis is the extraction of different band powers from EEG data and the computation of spectral density. This article explores the methodologies for extracting band powers from EEG data and computing spectral density, highlighting their importance and applications.
+
+This project deals with the extraction of data from an EEG, the separation of its constituent bands, and the calculation of their respective band powers
 
 <h1>Types of Bands</h1>
 EEG signals are typically decomposed into different frequency bands, each associated with distinct neural processes:<br>
@@ -30,7 +32,7 @@ The Hilbert-Huang Transform (HHT) is a non-linear and non-stationary signal proc
 
 <h3>a.EMD Decomposition</h3> The EEG signal is decomposed into a set of Intrinsic Mode Functions (IMFs) using EMD. Each IMF represents a specific oscillatory mode.<br>
 <h3>b.Hilbert Transform</h3>The Hilbert Transform is applied to each IMF to obtain the instantaneous frequency and amplitude.<br>
-<h3>c.Power Computation:</h3> The power in each frequency band is computed using the Hilbert spectrum, which represents the energy distribution in the time-frequency plane.<br>
+<h3>c.Power Computation:</h3> The power in each frequency band is computed using the Hilbert spectrum, representing the energy distribution in the time-frequency plane.<br>
 
 <h2>Computation of Power Spectral Density</h2>
 PSD = F{x(t)}<sup>2</sup>/T <br>
@@ -47,5 +49,5 @@ can be found in this branch as main.py
 Niedermeyer, E., & da Silva, F. L. (2004). Electroencephalography: Basic Principles, Clinical Applications, and Related Fields. Lippincott Williams & Wilkins.<br>
 Oken, B. S., & Chiappa, K. H. (1986). Short-term variability in EEG frequency analysis. Electroencephalography and Clinical Neurophysiology, 63(4), 353-367.<br>
 Cooley, J. W., & Tukey, J. W. (1965). An algorithm for the machine calculation of complex Fourier series. Mathematics of Computation, 19(90), 297-301.<br>
-Daubechies, I. (1990). The wavelet transform, time-frequency localization and signal analysis. IEEE Transactions on Information Theory, 36(5), 961-1005.<br>
+Daubechies, I. (1990). The wavelet transform, time-frequency localization, and signal analysis. IEEE Transactions on Information Theory, 36(5), 961-1005.<br>
 Huang, N. E., Shen, Z., & Long, S. R. (1998). The empirical mode decomposition and the Hilbert spectrum for nonlinear and non-stationary time series analysis. Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences, 454(1971), 903-995.<br>
