@@ -59,9 +59,10 @@ The frequency band with the highest relative bandpower is: Delta
 
   
 <h2>Applications</h2>
-Clinical Diagnosis: Bandpower analysis is used to detect abnormalities such as epilepsy, sleep disorders, and brain injuries.
-Cognitive Research: Analysis of EEG bandpowers provides insights into cognitive processes such as attention, memory, and learning.
-Brain-Computer Interfaces (BCIs): Bandpower features are employed in BCIs for controlling external devices through neural signals.
+Clinical Diagnosis: Bandpower analysis is used to detect abnormalities such as epilepsy, sleep disorders, and brain injuries.<br>
+Cognitive Research: Analysis of EEG bandpowers provides insights into cognitive processes such as attention, memory, and learning.<br>
+
+Brain-Computer Interfaces (BCIs): Bandpower features are employed in BCIs for controlling external devices through neural signals.<br>
 <h2>Code</h2>
 can be found in this branch as main.py
 <h2>Sources</h2>
