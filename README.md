@@ -35,7 +35,8 @@ The Hilbert-Huang Transform (HHT) is a non-linear and non-stationary signal proc
 <h2>Computation of Power Spectral Density</h2>
 PSD = F{x(t)}<sup>2</sup>/T <br>
 where F is the Fourier Transform of signal x(t) and T is the total duration<br>
-__Welch’s Method:__ A common method for estimating the PSD is Welch’s method, which involves dividing the signal into overlapping segments, applying a window function to each segment, computing the periodogram, and averaging the periodograms.
+<h3>Welch's Method</h3>
+A common method for estimating the PSD is Welch’s method, which involves dividing the signal into overlapping segments, applying a window function to each segment, computing the periodogram, and averaging the periodograms.
 <h2>Applications</h2>
 Clinical Diagnosis: Bandpower analysis is used to detect abnormalities such as epilepsy, sleep disorders, and brain injuries.
 Cognitive Research: Analysis of EEG bandpowers provides insights into cognitive processes such as attention, memory, and learning.
