@@ -39,6 +39,25 @@ PSD = F{x(t)}<sup>2</sup>/T <br>
 where F is the Fourier Transform of signal x(t) and T is the total duration<br>
 <h3>Welch's Method</h3>
 A common method for estimating the PSD is Welch’s method, which involves dividing the signal into overlapping segments, applying a window function to each segment, computing the periodogram, and averaging the periodograms.
+<h2>Results</h2>
+For the given data output was as follows: <br>
+Absolute Bandpower:
+Delta: 192.1939 µV^2
+Theta: 33.5008 µV^2
+Alpha: 16.7026 µV^2
+Beta: 4.7886 µV^2
+
+Relative Bandpower:
+Delta: 0.4711
+Theta: 0.0821
+Alpha: 0.0409
+Beta: 0.0117
+
+The frequency band with the highest relative bandpower is: Delta
+<img width="953" alt="Screenshot 2024-06-26 164857" src="https://github.com/KedarAthrey/mini-projects/assets/150422972/d54a8989-e692-4856-aafd-c11c747936ba">
+
+
+  
 <h2>Applications</h2>
 Clinical Diagnosis: Bandpower analysis is used to detect abnormalities such as epilepsy, sleep disorders, and brain injuries.
 Cognitive Research: Analysis of EEG bandpowers provides insights into cognitive processes such as attention, memory, and learning.
